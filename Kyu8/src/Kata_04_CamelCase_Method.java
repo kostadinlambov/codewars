@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Kata_07_CamelCase_Method {
+public class Kata_04_CamelCase_Method {
 
     public static void main(String[] args) {
         System.out.println(camelCase("hello case"));

@@ -1,4 +1,4 @@
-public class Kata_12_BouncingBall {
+public class Kata_05_BouncingBall {
 
     public static void main(String[] args) {
         int result = bouncingBall(3.0, 0.66, 1.5);
