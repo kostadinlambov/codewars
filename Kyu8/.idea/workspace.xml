@@ -191,6 +191,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valch\Desktop\CodeWars-Projects\Kyu8\src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -282,12 +287,12 @@
       <workItem from="1557497011952" duration="599000" />
       <workItem from="1557971493517" duration="7092000" />
       <workItem from="1558017802819" duration="1270000" />
-      <workItem from="1558204440648" duration="2210000" />
+      <workItem from="1558204440648" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48230000" />
+    <option name="totallyTimeSpent" value="48657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-21" y="0" width="1457" height="1047" extended-state="1" />
