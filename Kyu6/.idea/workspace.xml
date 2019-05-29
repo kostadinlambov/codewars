@@ -40,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kata_03_Hidden_Cubic_numbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="442">
               <caret line="29" column="27" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,11 +58,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kata_08_6Kyu_Longest_Common_Subsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="42">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kata_09_Is_a_number_prime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="3637" column="19" selection-start-line="3637" selection-start-column="19" selection-end-line="3637" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -99,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/Kata_03_Hidden_Cubic_numbers.java" />
         <option value="$PROJECT_DIR$/src/Kata_07_6Kyu_The_Office_Find_a_Chair.java" />
         <option value="$PROJECT_DIR$/src/Kata_08_6Kyu_Longest_Common_Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/Kata_09_Alphabetized.java" />
+        <option value="$PROJECT_DIR$/src/Kata_09_Is_a_number_prime.java" />
       </list>
     </option>
   </component>
@@ -109,18 +132,17 @@
     <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1 SoftUni" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -138,10 +160,37 @@
               <item name="Kyu6" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Kyu6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Kyu6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kyu6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kyu6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kata_08_6Kyu_Longest_Common_Subsequence">
+  <component name="RunManager" selected="Application.Kata_09_Is_a_number_prime">
     <configuration name="Kata_01_Custom_Smallfuck_Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kata_01_Custom_Smallfuck_Interpreter" />
       <module name="Kyu6" />
@@ -207,8 +256,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Kata_09_Is_a_number_prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kata_09_Is_a_number_prime" />
+      <module name="Kyu6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kata_09_Is_a_number_prime" />
         <item itemvalue="Application.Kata_08_6Kyu_Longest_Common_Subsequence" />
         <item itemvalue="Application.Kata_03_Hidden_Cubic_numbers" />
         <item itemvalue="Application.Kata_02_Help_the_bookseller" />
@@ -228,18 +285,19 @@
       <updated>1558044665601</updated>
       <workItem from="1558044669101" duration="17559000" />
       <workItem from="1558205553285" duration="2050000" />
-      <workItem from="1558230647462" duration="4935000" />
+      <workItem from="1558230647462" duration="5795000" />
+      <workItem from="1559164154941" duration="1317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24544000" />
+    <option name="totallyTimeSpent" value="26721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29530746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2947761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -249,7 +307,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3160323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29685807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28710726" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,11 +391,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kata_03_Hidden_Cubic_numbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="442">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kata_07_6Kyu_The_Office_Find_a_Chair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -354,17 +419,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kata_07_6Kyu_The_Office_Find_a_Chair.java">
+    <entry file="file://$PROJECT_DIR$/src/Kata_08_6Kyu_Longest_Common_Subsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="42">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kata_08_6Kyu_Longest_Common_Subsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/Kata_09_Is_a_number_prime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="304">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3637" column="19" selection-start-line="3637" selection-start-column="19" selection-end-line="3637" selection-end-column="19" />
         </state>
       </provider>
     </entry>
