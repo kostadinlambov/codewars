@@ -39,11 +39,20 @@ public class Kata_08_Closest_and_Smallest {
         String result = "[[13, 9, 85], [14, 3, 176]]";
 
         closest(s);
+
+        String s2 = "239382 162 254765 182 485944 134 468751 62 49780 108 54";
+        String result2 = "[[8, 5, 134], [8, 7, 62]]";
+
+        closest(s2);
     }
 
     public static int[][] closest(String strng) {
 
         int[][] result = new int[2][3];
+
+        if (strng.length() == 0) {
+            return new int[0][0];
+        }
 
         int[] input = Arrays.stream(strng.split("\\s+")).mapToInt(Integer::parseInt).toArray();
 
@@ -52,7 +61,6 @@ public class Kata_08_Closest_and_Smallest {
         int minWeightDiff = Math.abs(firstNumWeight - secondNumWeight);
         int firstNumIndex = 0;
         int secondNumIndex = 1;
-        int minIndexDiff = 1;
 
         for (int i = 0; i < input.length; i++) {
             for (int j = i + 1; j < input.length; j++) {
@@ -60,40 +68,41 @@ public class Kata_08_Closest_and_Smallest {
                 int currentSecondNumWeight = calculateWeight(input[j]);
                 int currentWeightDiff = Math.abs(currentFirstNumWeight - currentSecondNumWeight);
 
-                int currentIndexDiff = j - i;
-
-                if (currentWeightDiff < minWeightDiff ) {
+                if (currentWeightDiff < minWeightDiff) {
                     minWeightDiff = currentWeightDiff;
                     firstNumWeight = currentFirstNumWeight;
                     secondNumWeight = currentSecondNumWeight;
                     firstNumIndex = i;
                     secondNumIndex = j;
-                    minIndexDiff = currentIndexDiff;
 
-//                    if (currentIndexDiff < minIndexDiff)
-//                        minIndexDiff = currentIndexDiff;
-                }else if(currentWeightDiff == minWeightDiff ){
-                    if(currentFirstNumWeight < firstNumWeight ){
+                } else if (currentWeightDiff == minWeightDiff) {
+                    if (currentFirstNumWeight < firstNumWeight) {
                         firstNumWeight = currentFirstNumWeight;
                         firstNumIndex = i;
                     }
-                    if(currentSecondNumWeight <secondNumWeight){
+                    if (currentSecondNumWeight < secondNumWeight) {
                         secondNumWeight = currentSecondNumWeight;
                         secondNumIndex = j;
                     }
-
-                    minIndexDiff = currentIndexDiff;
                 }
-
             }
-
         }
 
-        System.out.println(input[firstNumIndex]);
-        System.out.println(input[secondNumIndex]);
-        System.out.println(minWeightDiff);
-        System.out.println(firstNumWeight);
-        System.out.println(secondNumWeight);
+        if (firstNumWeight <= secondNumWeight) {
+            result[0][0] = firstNumWeight;
+            result[1][0] = secondNumWeight;
+            result[0][1] = firstNumIndex;
+            result[1][1] = secondNumIndex;
+            result[0][2] = input[firstNumIndex];
+            result[1][2] = input[secondNumIndex];
+        } else {
+            result[0][0] = secondNumWeight;
+            result[1][0] = firstNumWeight;
+            result[0][1] = secondNumIndex;
+            result[1][1] = firstNumIndex;
+            result[0][2] = input[secondNumIndex];
+            result[1][2] = input[firstNumIndex];
+        }
 
         return result;
     }
