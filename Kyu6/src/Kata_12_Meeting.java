@@ -39,16 +39,20 @@ public class Kata_12_Meeting {
                 return 1;
             } else if (x.getLastName().compareTo(y.getLastName()) < 0) {
                 return -1;
+            } else {
+                if (x.getFirstName().compareTo(y.getFirstName()) > 0) {
+                    return 1;
+                } else if (x.getFirstName().compareTo(y.getFirstName()) < 0) {
+                    return -1;
+                }
+
+                return 0;
             }
-
-            return x.getFirstName().compareTo(y.getFirstName());
-
         }).toArray();
 
         for (int i = 0; i < sortedArray.length; i++) {
             Person person = (Person) sortedArray[i];
             result.append(String.format("(%s, %s)", person.getLastName().toUpperCase(), person.getFirstName().toUpperCase()));
-
         }
 
         return result.toString().trim();
