@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Kata_16_CountingDuplicates {
     public static void main(String[] args) {
 
@@ -19,12 +22,24 @@ public class Kata_16_CountingDuplicates {
         System.out.println(duplicateCount("abcde"));
         System.out.println(duplicateCount("abcdea"));
         System.out.println(duplicateCount("indivisibility"));
+        System.out.println(duplicateCount("abcdeabc"));
     }
 
     public static int duplicateCount(String text) {
-        // Write your code here
+        Map<Character, Integer> result = new HashMap<>();
 
-        return 0;
+        String textLowercase = text.toLowerCase();
+
+        for(int i = 0; i < text.length(); i++){
+            char currentChar = textLowercase.charAt(i);
+            if(!result.containsKey(currentChar)){
+                result.put(currentChar, 0);
+            }
+
+            result.put(currentChar, result.get(currentChar) + 1);
+        }
+
+        return (int) result.values().stream().filter(value -> value > 1).count();
     }
 
 }
