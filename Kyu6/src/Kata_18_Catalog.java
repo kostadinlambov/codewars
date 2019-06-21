@@ -1,3 +1,6 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Kata_18_Catalog {
     public static void main(String[] args) {
         String s =
@@ -30,11 +33,33 @@ public class Kata_18_Catalog {
 //        testing(s, "ladder" , "ladder > prx: $112 qty: 12");
 //        testing(s, "saw" , "table saw > prx: $1099.99 qty: 5\nsaw > prx: $9 qty: 10\nsaw for metal > prx: $13.80 qty: 32");
 //        testing(s, "wood pallet" , "wood pallet > prx: $65 qty: 21");
+
+        System.out.println(catalog(s, "saw"));
+        System.out.println(catalog(s, "ladder"));
+        System.out.println(catalog(s, "wood pallet"));
     }
 
-    public static String catalog(String s, String article) {
-        // your code
-        return null;
-    }
+    private static String catalog(String s, String article) {
+        String patternBuild = "<prod><name>(.*?" + article + ".*?)<\\/name><prx>(.*?)<\\/prx><qty>(\\d+)<\\/qty><\\/prod>";
+        Pattern pattern = Pattern.compile(patternBuild);
+        Matcher matcher = pattern.matcher(s);
 
+        StringBuilder result = new StringBuilder();
+
+        while (matcher.find()) {
+            String firstGroup = matcher.group(1);
+            String secondGroup = matcher.group(2);
+            String thirdGroup = matcher.group(3);
+
+            String currentMatch = String.format("%s > prx: $%s qty: %s", firstGroup, secondGroup, thirdGroup);
+
+            result.append(currentMatch).append(System.lineSeparator());
+        }
+
+        if (result.length() == 0) {
+            return "Nothing";
+        }
+
+        return result.toString().trim();
+    }
 }
