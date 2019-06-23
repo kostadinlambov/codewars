@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Kata_19_SpinWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="408">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -242,14 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kata_18_Catalog">
-    <configuration name="Kata_13_Jumping_Spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kata_13_Jumping_Spider" />
-      <module name="Kyu6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Kata_19_SpinWords">
     <configuration name="Kata_15_PositionAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kata_15_PositionAverage" />
       <module name="Kyu6" />
@@ -278,13 +271,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Kata_19_SpinWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kata_19_SpinWords" />
+      <module name="Kyu6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kata_19_SpinWords" />
         <item itemvalue="Application.Kata_18_Catalog" />
         <item itemvalue="Application.Kata_17_SumParts" />
         <item itemvalue="Application.Kata_16_CountingDuplicates" />
         <item itemvalue="Application.Kata_15_PositionAverage" />
-        <item itemvalue="Application.Kata_13_Jumping_Spider" />
       </list>
     </recent_temporary>
   </component>
@@ -323,18 +323,18 @@
       <workItem from="1561060971907" duration="1546000" />
       <workItem from="1561121310624" duration="3262000" />
       <workItem from="1561228692092" duration="699000" />
-      <workItem from="1561313471213" duration="864000" />
+      <workItem from="1561313471213" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63324000" />
+    <option name="totallyTimeSpent" value="64584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -344,7 +344,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26435536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26435536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22210184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kata_19_SpinWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
         </state>
       </provider>
     </entry>

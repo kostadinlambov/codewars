@@ -8,8 +8,20 @@ public class Kata_19_SpinWords {
     }
 
     public static String spinWords(String sentence) {
-        //TODO: Code stuff here
+        String[] words = sentence.split("\\s+");
+        StringBuilder result = new StringBuilder();
 
-        return null;
+        for (int i = 0; i < words.length; i++) {
+            String currentWord = words[i];
+           if(currentWord.length() > 4){
+               StringBuilder tempWord = new StringBuilder(currentWord);
+               String reversedWord = tempWord.reverse().toString();
+               result.append(reversedWord).append(" ");
+           }else {
+               result.append(currentWord).append(" ");
+           }
+        }
+
+        return result.toString().trim();
     }
 }
